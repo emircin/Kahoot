@@ -3,23 +3,19 @@
     margin: 0;
 }
 body{
-    background-color: #46178f;
+    background-image: url(./images/kahoot.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
 }
-.box-1{
-    width: 600px;
-    height:500px;
-    background-color: #3f1581;
-    transform: rotate(-315deg);
-    margin-left: -200px;
-    margin-top: -150px;
-}
+
 .head{
     font-size: 4rem;
     text-align: center;
-    margin-top: -100px;
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     font-weight: 900;
+    margin-top: 15%;
 }
 .sBox{
     width: 400px;
@@ -47,7 +43,6 @@ input{
     font-size: 1rem;
     text-align: center;
     color: bisque;
-    margin-top: 100px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
@@ -60,15 +55,9 @@ a:hover{
     color: aliceblue;
 }
 footer{
-    display: inline-block;
-    margin-left: 550px;
-}
-.circle{
-    width: 500px;
-    height: 500px;
-    background-color: #3f1581;
-    border-radius: 250px;
-    display: inline-block;
-    margin-left: 1100px;
-    margin-top: -300px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
 }
